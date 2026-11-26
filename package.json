@@ -1,0 +1,21 @@
+{
+  "name": "jokez-site",
+  "version": "1.0.0",
+  "description": "Kuach John's portfolio website - UX/UI designer, graphic designer, and frontend developer",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linter configured yet'"
+  },
+  "keywords": [
+    "portfolio",
+    "design",
+    "frontend"
+  ],
+  "author": "Kuach John",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
