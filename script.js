@@ -1,3 +1,8 @@
+import { inject } from '@vercel/analytics';
+
+// Initialize Vercel Web Analytics
+inject();
+
 const menuButton = document.querySelector('.menu-toggle');
 const nav = document.querySelector('.nav');
 const navLinks = [...document.querySelectorAll('.nav-link')];
